@@ -15,18 +15,19 @@ export const projects = [
     image: '../images/weather-app.png'
   },
   {
-    title: 'HR Management System',
+    title: 'Movie Web App',
     status: 'progress' as const,
-    description: 'Full-stack employee management platform with robust backend architecture.',
-    tech: ['React', 'Spring Boot', 'MySQL', 'JPA/Hibernate', 'Bootstrap'],
+    description: 'Responsive movie discovery web. Features dynamic data fetching to explore movie categories, real-time details, and full-screen trailers.',
+    tech: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query', 'Jotai', 'date-fns'],
     features: [
-      'RESTful API with Spring Boot',
-      'Complex data persistence with JPA and Hibernate',
-      'Asynchronous CRUD operations with Axios',
-      'Responsive UI with Bootstrap and React Router'
+      'Dynamic data fetching for movie categories',
+      'Real-time movie details and information',
+      'Full-screen trailer viewing experience',
+      'Efficient data caching with React Query',
+      'Global state management with Jotai'
     ],
-    github: '#',
-    image: '/images/hr-system.png'
+    github: 'https://github.com/EdgarGT041/Movie-Web-App',
+    image: '../images/movie-web-app.png'
   }
 ];
 

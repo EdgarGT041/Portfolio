@@ -10,7 +10,7 @@ export const skillCategories = [
   {
     icon: Database,
     title: "Backend",
-    skills: ['Node.js', 'NestJS', 'Express.js', 'Spring Boot', 'REST APIs'],
+    skills: ['Node.js', 'NestJS', 'Express.js', 'SQL', 'REST APIs'],
     color: "purple" as const
   },
   {
