@@ -18,7 +18,7 @@ export const projects = [
     title: 'Movie Web App',
     status: 'progress' as const,
     description: 'Responsive movie discovery web. Features dynamic data fetching to explore movie categories, real-time details, and full-screen trailers.',
-    tech: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query', 'Jotai', 'date-fns'],
+    tech: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query'],
     features: [
       'Dynamic data fetching for movie categories',
       'Real-time movie details and information',
