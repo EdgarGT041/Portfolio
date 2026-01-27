@@ -17,7 +17,7 @@ export const projects = [
   {
     title: 'Movie Web App',
     status: 'progress' as const,
-    description: 'Movie catalog web application built with React 18, TypeScript, and Vite. Integrates The Movie Database (TMDb) API to display real-time movie information, including top rated, now playing, and popular films. Implements React Router DOM for multi-page navigation, Axios for REST API consumption, skeleton loading components, and infinite scroll with load-more functionality. Features detailed movie pages with YouTube trailers and similar movie recommendations.',
+    description: 'Movie catalog web application. Display real time movie information, including top rated, now playing, and popular films.',
     tech: ['React 18', 'TypeScript', 'Vite', 'React Router DOM', 'Axios', 'TMDb API'],
     features: [
       'Real-time movie information from TMDb API',
