@@ -16,7 +16,7 @@ export const projects = [
   },
   {
     title: 'Movie Web App',
-    status: 'progress' as const,
+    status: 'live' as const,
     description: 'Movie catalog web application. Display real time movie information, including top rated, now playing, and popular films.',
     tech: ['React ', 'TypeScript', 'Vite', 'React Router DOM', 'React-youtube', 'React-icons'],
     features: [
@@ -27,6 +27,7 @@ export const projects = [
       'Detailed movie pages with YouTube trailers',
       'Similar movie recommendations'
     ],
+    demo:'https://movie-web-app-blue.vercel.app/',
     github: 'https://github.com/EdgarGT041/Movie-Web-App',
     image: '../images/movie-web-app.png'
   }
