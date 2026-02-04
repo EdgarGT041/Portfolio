@@ -1,7 +1,20 @@
-export const projects = [
+export type ProjectStatus = 'live' | 'progress';
+
+export interface Project {
+  title: string;
+  status: ProjectStatus;
+  description: string;
+  tech: string[];
+  features: string[];
+  demo: string;
+  github: string;
+  image: string;
+}
+
+export const projects: Project[] = [
   {
     title: 'Weather App',
-    status: 'live' as const,
+    status: 'live',
     description: 'Modern weather forecast application with real-time data and geolocation support.',
     tech: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'React Query', 'Jotai'],
     features: [
@@ -16,7 +29,7 @@ export const projects = [
   },
   {
     title: 'Movie Web App',
-    status: 'live' as const,
+    status: 'live',
     description: 'Movie catalog web application. Display real time movie information, including top rated, now playing, and popular films.',
     tech: ['React ', 'TypeScript', 'Vite', 'React Router DOM', 'React-youtube', 'React-icons'],
     features: [
@@ -32,5 +45,3 @@ export const projects = [
     image: '../images/movie-web-app.png'
   }
 ];
-
-export type Project = typeof projects[0];
