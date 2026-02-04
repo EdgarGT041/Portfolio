@@ -18,7 +18,7 @@ export const projects = [
     title: 'Movie Web App',
     status: 'progress' as const,
     description: 'Movie catalog web application. Display real time movie information, including top rated, now playing, and popular films.',
-    tech: ['React 18', 'TypeScript', 'Vite', 'React Router DOM', 'Axios', 'TMDb API'],
+    tech: ['React ', 'TypeScript', 'Vite', 'React Router DOM', 'React-youtube', 'React-icons'],
     features: [
       'Real-time movie information from TMDb API',
       'Multi-page navigation with React Router DOM',
