@@ -33,7 +33,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isVisible }) => {
               <p>
                 I specialize in building modern, responsive applications using <span className="text-slate-100">React</span> and{' '}
                 <span className="text-slate-100">Next.js</span>, with experience in backend development using{' '}
-                <span className="text-slate-100">Node.js</span> and <span className="text-slate-100">Spring Boot</span>.
+                <span className="text-slate-100">Node.js</span>, <span className="text-slate-100">Express</span> and <span className="text-slate-100">Nest</span>.
               </p>
               <p>
                 I am currently seeking my first professional opportunity where I can contribute high-quality code, 
